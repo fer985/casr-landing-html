@@ -4220,11 +4220,13 @@ input, select, textarea {
 
 					#banner .content header h2 {
 						font-size: 1.5em;
+						text-align: center;
 					}
 
 					#banner .content .image {
 						height: 9em;
 						width: 9em;
+						left: 15%;
 					}
 		
 		/* Banner sobre nosotros  */
@@ -4244,6 +4246,7 @@ input, select, textarea {
 
 					#banner-sobre-nosotros .content header h2 {
 						font-size: 1.5em;
+						text-align: center;
 					}
 
 					#banner-sobre-nosotros .content .image {
@@ -4268,6 +4271,7 @@ input, select, textarea {
 
 					#banner-accion-solidaria .content header h2 {
 						font-size: 1.5em;
+						text-align: center;
 					}
 
 					#banner-accion-solidaria .content .image {
@@ -4291,6 +4295,7 @@ input, select, textarea {
 
 					#banner-rally .content header h2 {
 						font-size: 1.5em;
+						text-align: center;
 					}
 
 					#banner-rally .content .image {
