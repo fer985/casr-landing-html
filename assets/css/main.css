@@ -4120,7 +4120,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) and (min-width: 480px){
+	@media screen and (max-width: 736px){
 
 		/* Basic */
 
