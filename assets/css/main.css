@@ -3130,11 +3130,13 @@ input, select, textarea {
 		.spotlight.left .content {
 			border-right-width: 0.35em;
 			left: 0;
+			max-width: fit-content;
 		}
 
 		.spotlight.right .content {
 			border-left-width: 0.35em;
 			right: 0;
+			max-width: fit-content;
 		}
 
 		.spotlight.style1 .content {
