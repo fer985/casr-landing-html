@@ -3453,7 +3453,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/coche2.jpg");
+		background-image: url("../../images/coche6.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -3474,7 +3474,7 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: url("../../images/coche2.jpg");
+			background-image: url("../../images/coche6.jpg");
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center center;
