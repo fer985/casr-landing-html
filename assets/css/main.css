@@ -3791,14 +3791,7 @@ input, select, textarea {
 	body.is-touch #banner-rally {
 		background-attachment: scroll;
 	}
-	/*h2 accion solidaria */
-	#h2-accion-solidaria{
-		font-size: 8rem;
-	}
-	/*h2 rallies */
-	#h2-rally{
-		font-size: 8rem;
-	}
+	
 /* Footer */
 
 	#footer {
@@ -3858,19 +3851,34 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 2400px) and (min-width: 1280px){
 
 		/* Basic */
 
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+		/* Banner accion solidaria*/
 
+		#banner-accion-solidaria .content {
+			padding: 4.5em;
+		}
+		#h2-accion-solidaria{
+			font-size: 8rem;
+		}
+	/* Banner rally */
+
+		#banner-rally .content {
+			padding: 4.5em;
+		}
+		#h2-rally{
+			font-size: 8rem;
+		}
 	}
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1280px) and (min-width: 980px) {
 
 		/* Basic */
 
@@ -3910,7 +3918,29 @@ input, select, textarea {
 			#banner .content {
 				padding: 4.5em;
 			}
+		
+		/* Banner sobre nosotros */
 
+			#banner-sobre-nosotros .content {
+				padding: 4.5em;
+			}
+	
+		/* Banner accion solidaria*/
+
+			#banner-accion-solidaria .content {
+				padding: 4.5em;
+			}
+			#h2-accion-solidaria{
+				font-size: 8rem;
+			}
+		/* Banner rally */
+
+			#banner-rally .content {
+				padding: 4.5em;
+			}
+			#h2-rally{
+				font-size: 8rem;
+			}
 		/* Footer */
 
 			#footer {
@@ -3921,7 +3951,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 980px) and (min-width: 736px) {
 
 		/* Basic */
 
@@ -4004,7 +4034,78 @@ input, select, textarea {
 					#banner .content .image {
 						margin: 0;
 					}
+		/* Banner sobre nosotros */
 
+			#banner-sobre-nosotros {
+				background-attachment: scroll;
+			}
+
+				#banner-sobre-nosotros .goto-next {
+					height: 7em;
+				}
+
+				#banner-sobre-nosotros .content {
+					padding: 9em 0;
+					text-align: center;
+				}
+
+					#banner-sobre-nosotros .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#banner-sobre-nosotros .content .image {
+						margin: 0;
+					}
+		/* Banner accion solidaria */
+
+			#banner-accion-solidaria {
+				background-attachment: scroll;
+			}
+
+				#banner-accion-solidaria .goto-next {
+					height: 7em;
+				}
+
+				#banner-accion-solidaria .content {
+					padding: 9em 0;
+					text-align: center;
+				}
+
+					#banner-accion-solidaria .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#banner-accion-solidaria .content .image {
+						margin: 0;
+					}
+		/* Banner rally */
+
+			#banner-rally {
+				background-attachment: scroll;
+			}
+
+				#banner-rally .goto-next {
+					height: 7em;
+				}
+
+				#banner-rally .content {
+					padding: 9em 0;
+					text-align: center;
+				}
+
+					#banner-rally .content header {
+						display: block;
+						margin: 0 0 2em 0;
+						text-align: center;
+					}
+
+					#banner-rally .content .image {
+						margin: 0;
+					}
 		/* Footer */
 
 			#footer {
@@ -4019,7 +4120,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) and (min-width: 480px){
 
 		/* Basic */
 
@@ -4122,6 +4223,77 @@ input, select, textarea {
 					}
 
 					#banner .content .image {
+						height: 9em;
+						width: 9em;
+					}
+		
+		/* Banner sobre nosotros  */
+
+			#banner-sobre-nosotros {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: calc(100vh - 44px);
+			}
+
+				#banner-sobre-nosotros:before {
+					height: calc(100vh - 44px);
+				}
+
+				#banner-sobre-nosotros .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				}
+
+					#banner-sobre-nosotros .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#banner-sobre-nosotros .content .image {
+						height: 9em;
+						width: 9em;
+					}
+					
+		/* Banner accion solidaria */
+
+			#banner-accion-solidaria {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: calc(100vh - 44px);
+			}
+
+				#banner-accion-solidaria:before {
+					height: calc(100vh - 44px);
+				}
+
+				#banner-accion-solidaria .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				}
+
+					#banner-accion-solidaria .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#banner-accion-solidaria .content .image {
+						height: 9em;
+						width: 9em;
+					}
+		/* Banner rally */
+
+			#banner-rally {
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: calc(100vh - 44px);
+			}
+
+				#banner-rally:before {
+					height: calc(100vh - 44px);
+				}
+
+				#banner-rally .content {
+					padding: 4.0625em 1.5em 4.875em 1.5em;
+				}
+
+					#banner-rally .content header h2 {
+						font-size: 1.5em;
+					}
+
+					#banner-rally .content .image {
 						height: 9em;
 						width: 9em;
 					}
@@ -4358,6 +4530,24 @@ input, select, textarea {
 		/* Banner */
 
 			#banner .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
+			
+		/* Banner sobre nosotros */
+
+			#banner-sobre-nosotros .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
+
+		/* Banner accion solidaria */
+
+			#banner-accion-solidaria .content {
+				padding: 3em 1.5625em 5.25em 1.5625em;
+			}
+
+		/* Banner rally */
+
+			#banner-rally .content {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
 

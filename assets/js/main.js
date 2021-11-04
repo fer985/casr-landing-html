@@ -246,5 +246,19 @@
 
 		$banner
 			._parallax();
+	// Banner.
+		var $banner = $('#banner-sobre-nosotros');
 
+		$banner
+		._parallax();
+	// Banner.
+		var $banner = $('#banner-accion-solidaria');
+
+		$banner
+		._parallax();
+	// Banner.
+		var $banner = $('#banner-rally');
+
+		$banner
+			._parallax();
 })(jQuery);
