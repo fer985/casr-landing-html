@@ -3483,11 +3483,12 @@ input, select, textarea {
 			background-attachment: fixed;
 			content: '';
 			display: block;
-			height: 100%;
+			max-height: 100%;
 			left: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
+			margin: auto;
 		}
 
 		#banner .content {
@@ -3569,7 +3570,7 @@ input, select, textarea {
 			background-attachment: fixed;
 			content: '';
 			display: block;
-			height: 100%;
+			max-height: 100%;
 			left: 0;
 			position: absolute;
 			top: 0;
